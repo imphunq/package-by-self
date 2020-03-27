@@ -1,0 +1,21 @@
+{
+  "name": "quangphu/hello-phu",
+  "description": "the first composer package",
+  "type": "php",
+  "license": "0BSD",
+  "authors": [
+      {
+          "name": "quangphu",
+          "email": "nguyen.quang.phu@sun-asterisk.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+      "php": ">=5.3.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "quangphu\\SayHelloByPhu\\": "src/"
+      }
+  }
+}
